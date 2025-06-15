@@ -33,14 +33,26 @@ header {
     margin-bottom: 2rem;
 }
 
+nav {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
 nav a {
-    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
     color: #5c3d99;
+    background-color: #f0f0f0;
+    padding: 0.4em 0.8em;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
     text-decoration: underline;
+    background-color: #e0e0e0;
 }
 
 main {
